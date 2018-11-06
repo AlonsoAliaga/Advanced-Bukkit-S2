@@ -11,7 +11,7 @@ public class Main extends JavaPlugin implements Listener {
     public void onEnable() {
         console = Bukkit.getServer().getConsoleSender();
         console.sendMessage("[TSCPlugin] Plugin enabled!");
-	getServer().getPluginManager().registerEvents(new C01(this),this);
+	    getServer().getPluginManager().registerEvents(new C01(this),this);
     }
     @Override
     public void onDisable() {
