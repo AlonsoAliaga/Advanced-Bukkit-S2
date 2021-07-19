@@ -5,7 +5,7 @@ import org.bukkit.command.ConsoleCommandSender;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class Main extends JavaPlugin implements Listener {
+public class Main extends JavaPlugin {
     public ConsoleCommandSender console;
     @Override
     public void onEnable() {
